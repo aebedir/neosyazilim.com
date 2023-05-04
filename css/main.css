@@ -1,0 +1,70 @@
+.main{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)),url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;    
+}
+
+/* Anasayfa kayar yazılar */
+.animation_text{
+    position: absolute;
+    top: 35%;  
+    width: 50%;           
+}
+.animation_text  h2{
+    display: inline;
+    color: white;    
+}
+
+.animation_btn{
+    position: absolute;
+    top: 50%;  
+    width: 50%;
+}
+
+/* Detaylı bilgi al */
+.getInfo{
+    background-image: linear-gradient(to right ,rgba(0, 0, 255, 0.6), rgba(122, 13, 218, 0.6));
+    font-weight: bold;
+    font-family: 'Alkatra', cursive;
+    letter-spacing: 1.5px;
+    color: white;
+    padding: 13px 17px;
+    border-radius: 20px;   
+    border: none; 
+    transition:all .5s ease-in-out !important;
+    
+}
+.getInfo:hover {
+    background-image: linear-gradient(to left ,rgba(0, 0, 255, 0.6), rgba(122, 13, 218, 0.9));
+    color: white;    
+}
+
+.logo{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4));
+}
+
+
+
+/* OWL carousel */
+.owl{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+.owl-carousel{    
+    z-index: -1500;          
+}
+
+.ikon1, .ikon2, .ikon3, .ikon4, .ikon5{    
+    transition: .7s;
+    padding: 0;
+    margin: 0;
+}
+.ikon1:hover, .ikon2:hover, .ikon3:hover, .ikon4:hover, .ikon5:hover{    
+    transform: scale(1.1);
+}

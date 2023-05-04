@@ -1,0 +1,13 @@
+#egitim{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.942), #414b59f1) ;
+    color: white;
+    margin: auto;
+    padding-top: 20px;
+    position: absolute;
+    top: 18.5%; 
+    padding: 0 250px;   
+    z-index: 500;
+}
+#egitim div{
+    padding-right: 20px;    ;
+}

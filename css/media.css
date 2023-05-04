@@ -1,0 +1,115 @@
+@media screen and (max-width:1023px) {
+    .animation_text  h2{
+        font-size: 20px;    
+    }
+    #egitim{
+        font-size: 16px;
+        padding: 0 75px;
+        top: 21%;
+    }
+    .formInfo{        
+        top: 25%;
+    }
+    .offcanvas-body ,.offcanvas-header{
+        background-image: linear-gradient(to right, black, #414b59) ;
+    }
+    .offcanvas-title{
+        color: white;
+    }    
+    .offcanvas-body .phone-mail a{
+        color: white;        
+    }
+    .phone-mail a:nth-child(2){
+        border: none;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .logo{
+        display: none;
+    }   
+    .animation_text{         
+        width: 90%;           
+        margin: auto;
+    } 
+    .formInfo{
+        width: 50%;
+    }
+    .email{
+        display: none;
+    }
+    .offcanvas-body ,.offcanvas-header{
+        background-image: linear-gradient(to right, black, #414b59) ;
+    }
+    .offcanvas-title{
+        color: white;
+    }
+    .offcanvas-body .phone-mail{
+        display: block !important;
+    }
+    .offcanvas-body .phone-mail a{
+        color: white;        
+    }
+    .phone-mail a:nth-child(2){
+        border: none;
+    }
+    .animation_btn h5{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    #egitim{
+        display: none !important;
+    }  
+    .owl{
+        display: none;
+    }  
+    .offcanvas-body .phone-mail a{
+        font-size: 14px;        
+    }
+    .header-top .container{
+        display: inline !important;
+        padding: 0px;
+    }
+    .header-top .container a{
+        font-size: 14px;
+    }
+    .header-top .phone-mail , .social-links{
+        text-align: center;
+    }
+    .formInfo{
+        width: 70%;
+        border-radius: 15px;
+        background-color: rgb(29, 29, 144);
+        padding: 15px;
+        position: absolute;
+        top: 30%;
+        right: 3%;
+    }
+    .formInfo span{
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+    .formInfo input ,.formInfo select{
+        font-size: 14px;
+        padding: 3px 7px;
+    }
+    .animation_text{         
+        width: 100%;         
+    }
+    .animation_text h2{
+        font-size: 18px;
+    }
+    .animation_btn{          
+        width: 70%;
+    }
+    .getInfo{
+        padding: 5px 7px;
+        font-size: 14px;
+    }
+    .uyari{        
+        top: 24%;        
+    }
+}

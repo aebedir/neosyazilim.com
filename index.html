@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section_egitim.css">    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/section_form.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Neos Akademi</title>
+</head>
+<body>
+    <!-- Navigasyon barı -->
+    <header>
+        <div class="header-top">
+            <div class="container d-flex align-items-center justify-content-end">            
+                <div class="phone-mail">
+                    <a href="" class="pe-3"><i class="fa-solid fa-phone pe-2"></i>+90 501 320 53 58</a>
+                    <a href=""><i class="fa-solid fa-at pe-2"></i>neosiletisim@gmail.com</a>
+                </div>
+                <div class="social-links">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                </div>
+        </div>
+        <div class="header-bottom">
+            <nav class="navbar navbar-expand-lg sticky-top">
+                <div class="container p-2">
+                    <a class="navbar-brand ps-md-5" href="index.html"><img src="/img/logo.png" width="150px" style="margin: 0px;" alt="neosyazılım"></a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Neos Yazılım Akademi</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-lg-auto">
+                            <li class="nav-item">
+                            <a class="nav-link active" id="1" aria-current="page" onClick="add(this.id)" href="index.html">Anasayfa</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" id="2" href="#" onClick="add(this.id)">Eğitimlerimiz</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" id="3" href="#" onClick="add(this.id)">Hakkımızda</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" id="4"  href="#" onClick="add(this.id)" >Sertifikalar</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link" id="5"  href="#" onClick="add(this.id)" >Bize Ulaşın</a>
+                            </li> 
+                            <div class="phone-mail d-none">
+                                <hr>
+                                <a href="" class="pe-3"><i class="fa-solid fa-phone pe-2"></i>+90 501 320 53 58</a>
+                                <hr>
+                                <a href=""><i class="fa-solid fa-at pe-2"></i>neosiletisim@gmail.com</a>
+                            </div>         
+                        </ul>                             
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Eğitimlerimiz açılır kapanır sekme -->
+    <section class="d-flex align-items-start d-none" id="egitim">
+        <div class="frontend">
+            <h4>Front End Web Geliştirme</h4>
+            <p>Bu kısımda yazılım dünyasına ilk adımımızı web geliştirme ile atıyoruz. Bu kısımda bir web sitesinin kullanıcı tarafını kodlamayı aşağıdaki diller ve kütüphaneler ile öğreniyoruz:</p>
+            <ul>
+                <li>HTML ve CSS</li>
+                <li>SASS-SCSS</li>
+                <li>JAVASCRIPT</li>
+                <li>BOOTSTRAP</li>
+                <li>JQUERY & JQUERY UI</li>
+                <li>REACT JS</li>
+                <li>FETCH API</li>
+            </ul>
+        </div>
+        <div class="backend">
+            <h4>Back End Web Geliştirme</h4>
+            <p>Yazılım uzmanlığı eğitim programlarında back end web geliştirme kısmı kayıt aşamasında seçtiğiniz gruba bağlıdır. Seçtiğiniz eğitim grubuna göre eğitiminizde aşağıdaki 3 müfredattan biri bulunacaktır:</p>
+            <ul>
+                <li>PYTHON & DJANGO</li>
+                <li>NODE JS</li>
+                <li>C# & .NET MVC CORE</li>
+            </ul>
+        </div>
+        <div class="staj">
+            <h4>Staj Süreci</h4>
+            <p>Neos Yazılım Akademi'de gerçekleştirilen stajlar sektörel eğitim kapsamında olup, katılımcıların ilk iş deneyimini kazanmasını sağlamaktadır.</p>
+        </div>
+    </section>
+
+    <main class="main">
+        
+            <div class="animation_text ps-2">
+                <h2>
+                  <span class="typewrite" data-period="2000" data-words='[ " NEOS Yazılım Akademi 100 e Yakın Sınıfındaki Başarılı Eğitim Süreçleri Sayesinde ISO Kalite Belgesiyle Belgelendirilmiştir.", " Türkiye Prestij Ödülleri 2022 NEOS Yazılım Akademi Olarak Yazılım Akademisi Ödülünü Aldık.", " Akademimiz %98 memnuniyet oranı ile Türkiyenin en güvenilir Yazılım Eğitim Kurumu konumundadır."]'></span>     </h2>                
+            </div>
+            <div class="animation_btn ps-2">
+                <div data-aos="fade-left"  
+                    data-aos-delay="2800" class="text-white ps-2 mt-3">
+                    <h5>Mayıs Ayı Fırsatlarını Yakalayın !</h5>
+                </div>  
+                <div data-aos="fade-left"  
+                    data-aos-delay="3000">
+                    <button class="btn getInfo">Detaylı Bilgi Al</button>
+                </div>
+            </div>
+            <!-- Ana ekran sağ taraf resim -->
+            <div class="logo">
+                <img src="img/logo.png" width="400px" alt="">
+            </div>
+            
+
+        
+
+        <div class="owl">
+            <div class="owl-carousel  container">
+                <div class="ikon1"><a href="" ><img src="img/sertifika1.png" alt=""></a></div>
+                <div class="ikon2"><a href="" ><img src="img/sertifika2.jpeg" alt=""></a></div>
+                <div class="ikon3"><a href="" ><img src="img/sertifika3.png" alt=""></a></div>
+                <div class="ikon4"><a href="" ><img src="img/sertifika4.jpeg" alt=""></a></div>
+                <div class="ikon5"><a href="" ><img src="img/sertifika5.png" alt=""></a></div>                    
+            </div>
+        </div>  
+    </main>
+
+    <div class="uyari d-none">
+        <h5 class="alert alert-success">Form Başarıyla Gönderildi.</h5>
+    </div>
+
+    
+    <section class="formInfo d-none">
+        <div>            
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Adınız : </span>
+                <input type="text" class="form-control" placeholder="Adınızı giriniz..." aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Soyadınız : </span>
+                <input type="text" class="form-control" placeholder="Soyadınızı giriniz... " aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+              
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Mail Adresiniz : </span>
+                <input type="email" class="form-control" placeholder="Mail adresinizi giriniz..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text email" id="basic-addon2">@example.com</span>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Almak İstediğiniz Eğitim : </span>
+                <select class="form-select" id="inputGroupSelect02">
+                <option selected>Seçiniz...</option>
+                <option value="1">Frontend Developer Eğitimi</option>
+                <option value="2">Backend Developer Eğitimi Python-Django İle</option>
+                <option value="3">Backend Developer Eğitimi Node.js İle</option>
+                <option value="3">Backend Developer Eğitimi C# İle</option>
+                <option value="3">FullStack Developer Eğitimi</option>
+                </select> 
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Eğitim Türü :</span>
+                <select class="form-select" id="inputGroupSelect02">
+                <option selected>Seçiniz...</option>
+                <option value="1">Yüzyüze Eğitim</option>
+                <option value="2">Online Eğitim</option>
+                </select>
+                </div> 
+
+            <div class="pt-2 button formgonder">
+                <button class="btn btn-danger">Formu Gönder</button>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
